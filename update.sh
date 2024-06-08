@@ -12,7 +12,7 @@ sudo flatpack update -y
 
 # Actualizar paquetes de Snap
 
-# sudo snap refresh
+# sudo snap refresh -y
 
 # Limpiar los paquetes huérfanos
 
@@ -22,10 +22,6 @@ sudo apt autoremove -y
 
 sudo apt clean -y
 sudo apt autoclean -y
-
-# Limpieza de historial de comandos
-
-# history -c
 
 # Avisa que esta todo hecho
 echo "########   Ya está todo al día   #########"
