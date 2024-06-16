@@ -27,4 +27,3 @@ echo "########   Ya está todo al día   #########"
 
 # Finalizar con éxito
 
-exit 0 
