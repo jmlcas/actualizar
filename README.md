@@ -1,4 +1,4 @@
-# actualizar.sh
+# actualizar
 
 sudo chmod +x actualizar.sh
 
