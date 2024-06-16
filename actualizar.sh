@@ -1,29 +1,24 @@
 #!/bin/bash
 
-# Actualizar el sistema
-# Actualizar repositorios y dependencias
-
+# Actualizar la lista de paquetes
+echo "Actualizando la lista de paquetes..."
 sudo apt update
+
+# Actualizar todos los paquetes instalados
+echo "Actualizando todos los paquetes instalados..."
 sudo apt upgrade -y
 
-# Actualizar paquetes de Flatpack
+# Actualizar las aplicaciones flatpak
+echo "Actualizando aplicaciones flatpak..."
+sudo flatpak update -y
 
-sudo flatpack update -y
-
-# Actualizar paquetes de Snap
-
-# sudo snap refresh -y
-
-# Limpiar los paquetes huérfanos
-
+# Limpiar paquetes innecesarios
+echo "Eliminando paquetes innecesarios..."
 sudo apt autoremove -y
 
-# Limpiar la cache de la APT.
+# Limpiar el caché de paquetes
+echo "Limpiando el caché de paquetes..."
+sudo apt clean
 
-sudo apt autoclean -y 
-
-# Avisa que esta todo hecho
-echo "########   Ya está todo al día   #########"
-
-# Finalizar con éxito
+echo "Sistema actualizado y limpio"
 
