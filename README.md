@@ -1,6 +1,6 @@
-# update.sh
+# actualizar.sh
 
-sudo chmod +x update.sh
+sudo chmod +x actualizar.sh
 
-sudo ./update.sh
+sudo ./actualizar.sh
 
