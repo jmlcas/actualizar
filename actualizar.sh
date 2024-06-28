@@ -10,7 +10,7 @@ sudo apt upgrade -y
 
 # Actualizar las aplicaciones flatpak
 echo "Actualizando aplicaciones flatpak..."
-sudo flatpak update -y
+sudo flatpak update 
 
 # Limpiar paquetes innecesarios
 echo "Eliminando paquetes innecesarios..."
